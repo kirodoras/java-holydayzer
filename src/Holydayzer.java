@@ -32,6 +32,6 @@ public class Holydayzer {
     }
 
     public void listHolidays() {
-        holidays.forEach((key, value) -> System.out.println("Data: " + key + "corresponde ao feriado: " + value));
+        holidays.forEach((key, value) -> System.out.println("Data: " + key + " corresponde ao feriado: " + value));
     }
 }
